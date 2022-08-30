@@ -1,0 +1,47 @@
+.progress-tracker__container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 330px;
+  margin: auto;
+  margin-top: 100px;
+}
+
+.progress-tracker__number {
+  width: 37.5px;
+  height: 37.5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  border: 1px solid #ecf0f6;
+  color: #535e77;
+}
+
+.color-animation-class {
+  background: linear-gradient(to right, var(--primary-accent) 50%, white 50%);
+  background-size: 200% 100%;
+  background-position: right bottom;
+  transition: all 0.25s ease;
+  transition-delay: 0.25s;
+}
+
+.color-animation-class-line {
+  width: 30px;
+  height: 1px;
+  background: linear-gradient(to right, var(--primary-accent) 50%, #ecf0f6 50%);
+  background-size: 200% 100%;
+  background-position: right bottom;
+  transition: all 0.25s ease;
+}
+
+.delay2s {
+  transition-delay: 0.5s;
+}
+
+.animation-start {
+  background-position:left bottom;
+  color: white;
+  border-color: var(--primary-accent);
+  background-color: var(--primary-accent);
+}
