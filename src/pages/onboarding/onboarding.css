@@ -30,3 +30,9 @@
   margin-top: 15px;
   max-width: 400px;
 }
+
+.onboarding__congrats {
+  display: block;
+  margin: 20px auto;
+  margin-bottom: 30px;
+}
