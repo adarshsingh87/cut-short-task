@@ -3,8 +3,7 @@
   align-items: center;
   justify-content: center;
   max-width: 330px;
-  margin: auto;
-  margin-top: 100px;
+  margin: 100px auto;
 }
 
 .progress-tracker__number {
@@ -20,7 +19,7 @@
 
 .color-animation-class {
   background: linear-gradient(to right, var(--primary-accent) 50%, white 50%);
-  background-size: 200% 100%;
+  background-size: 210% 100%;
   background-position: right bottom;
   transition: all 0.25s ease;
   transition-delay: 0.25s;
