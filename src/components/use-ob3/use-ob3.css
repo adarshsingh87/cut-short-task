@@ -1,0 +1,36 @@
+.use__container {
+  width: 100%;
+  max-width: 400px;
+  margin: 0 auto;
+  margin-top: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 25px;
+  flex-wrap: wrap;
+}
+
+.use-card {
+  flex: 1;
+  fill: #364259;
+  cursor: pointer;
+  padding: 20px;
+  border-radius: 8px;
+  border: 1px solid #edf1f6;
+  margin-bottom: 10px;
+}
+
+.use__icons {
+  width: 25px;
+  height: 25px;
+  margin-bottom: 20px;
+}
+
+.active-use {
+  fill: var(--primary-accent);
+  border-color: var(--primary-accent);
+}
+
+.use-card__heading {
+  font-weight: 600;
+}

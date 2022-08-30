@@ -11,13 +11,15 @@ import Logo from '../../assets/logo.png'
 // css imports
 import './onboarding.css'
 import WorkspaceInputs from '../../components/workspace-inputs/workspace-inputs'
+import UseOb3 from '../../components/use-ob3/use-ob3'
 
 const Onboarding = () => {
-  const [progress, setProgress] = useState(2)
+  const [progress, setProgress] = useState(3)
   const [name, setName] = useState('')
   const [dpName, setDpName] = useState('')
   const [workspaceName, setWorkspaceName] = useState('')
   const [workspaceURL, setWorkspaceUrl] = useState('')
+  const [use, setUse] = useState('self')
 
   const onboardingHeader = [
     { heading: 'Welcome! First things first...', subHeading: 'You can always change them later.' },
@@ -65,6 +67,12 @@ const Onboarding = () => {
           setWorkspaceName={setWorkspaceName}
           workspaceURL={workspaceURL}
           setWorkspaceUrl={setWorkspaceUrl}
+        />
+      ) : null}
+      {progress === 3 ? (
+        <UseOb3
+          use={use}
+          setUse={setUse}
         />
       ) : null}
       <button onClick={handleOnboardingClick} className='onboarding__c2a-btn'>
