@@ -1,0 +1,23 @@
+.workspace-input__url-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.workspace-url__prefix {
+  background-color: #f8f9fc;
+  font-size: 14px;
+  padding: 15px 10px;
+  border-radius: 4px;
+  border: 1px solid #ecf0f6;
+  margin-bottom: 15px;
+  color: #a7b1c5;
+  border-bottom-right-radius: 0;
+  border-top-right-radius: 0;
+  border-right: none;
+}
+
+.workspace-input__url-container > .name-input__inputs {
+  border-bottom-left-radius: 0;
+  border-top-left-radius: 0;
+}

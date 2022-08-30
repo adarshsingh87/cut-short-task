@@ -8,7 +8,7 @@ const NameInputs = (props) => {
       <p>Full Name</p>
       <input
         type='text'
-        name='name'
+        name='full name'
         value={props.name}
         onChange={(e) => props.setName(e.target.value)}
         className='name-input__inputs'
@@ -17,7 +17,7 @@ const NameInputs = (props) => {
       <p>Display Name</p>
       <input
         type='text'
-        name='name'
+        name='display name'
         value={props.dpName}
         onChange={(e) => props.setDpName(e.target.value)}
         className='name-input__inputs'

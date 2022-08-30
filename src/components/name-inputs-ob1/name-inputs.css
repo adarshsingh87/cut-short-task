@@ -18,3 +18,7 @@
   width: 100%;
   margin-bottom: 15px;
 }
+
+.name-input__inputs:focus {
+  outline: none;
+}
